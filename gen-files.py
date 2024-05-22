@@ -13,6 +13,11 @@ mots_aleatoires = ["SoLeIL", "PlUIe", "veNT", "NeigE", "ORaGE"]
 
 # Nombre de fichiers à créer
 nb_fichiers = 25
+try :
+    os.mkdir("./Dossiers")
+
+except :
+    pass
 
 for i in range(nb_fichiers):
     matricule = str(1300000 + random.randint(1000, 9999))

@@ -1,6 +1,8 @@
 #!/bin/bash
 # matricule_annee_code_nom.pdf → matricule_EVAL_annee_code.pdf
 
+mkdir -p Dossiers
+mkdir -p Destination
 # Répertoire contenant les fichiers d'origine
 repertoire="./Dossiers"
 
