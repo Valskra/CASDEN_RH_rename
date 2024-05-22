@@ -1,3 +1,0 @@
-Ecris un script Shell transformant des noms de fichier au format [matricule]_[annee]_[code]_[nom].pdf en [matricule]_EVAL_[annee]_[code].pdf
-
-Les mots entre crochets sont des variables. Le code devra être transformé. Voici les 5 codes sur les fichiers d'origine : "SOLEIL", "PLUIE", "VENT", "NEIGE", "ORAGE". Ils devront devenir respectivement: "FEU", "EAU", AIR", "GEL", "ELECTRICITE"
